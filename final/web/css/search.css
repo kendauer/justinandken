@@ -1,0 +1,17 @@
+body, td {font-family: calibri, helvetica, sans-serif; }
+h1,h2,h3,h4,h5,h6 {text-align: left;}
+h1,h2 {margin-bottom: 0px; padding-bottom: 0.2em; margin-top: 0px; padding-top: 0.2em;}
+#navigation {font-size: 80%; padding-bottom: 0.5em; word-wrap: break-word; }
+#navigation a:link, #navigation a:visited, #navigation a:hover, #navigation a:active { color: blue; text-decoration: none; }
+#navigation a:hover, #navigation a:hover.unselectable { background-color: blue; color: white;  }
+#navigation {border: thin solid #ddb; padding: 0.25em; background-color: #ffd;}
+#navigation a.selected { font-size: larger; color: black; font-weight: bold; background-color: #ff8;}
+#navigation .chosen a.remove { font-weight: normal; background-color: inherit;}
+#navigation a.unselectable { color: #666; text-decoration: line-through;}
+#navigation a:hover.unselectable { background-color: inherit; color: #666; text-decoration: line-through;}
+#navigation span { color: #aaa;}
+#navigation .chosen a, #navigation .chosen span { display: none;}
+#navigation .chosen a.selected { display: inline;}
+#navigation .chosen a.remove .selected { display: inline;}
+#navigation a.remove { display: none; } 
+#pdflink { float: right; }

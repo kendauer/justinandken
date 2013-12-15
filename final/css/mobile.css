@@ -1,0 +1,103 @@
+/* CSS Rules */
+
+body {
+    width: 640px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.header {
+    padding-bottom: 0em;
+}
+
+table {
+    width: 600px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-collapse:collapse;
+    border: 0px;
+}
+
+.footerlinks a {
+    text-decoration:none;
+    color: gray;
+    text-align: center;
+    padding-left: 10px;
+    font-size: 8pt;
+}
+
+.footerlinks p {
+    display:inline;
+    color: gray;
+    padding-left: 5px;
+    font-size: 8pt;
+}
+
+.footer hr {
+    width: 640px;
+
+}
+
+.footerlinks {
+    margin-left: 5px;
+}
+
+.grouplisting a {
+    text-decoration:none;
+    color: blue;
+    text-align: center;
+    padding-left: 10px;
+}
+
+.grouplisting p {
+    font-size: 120%;
+    display:inline;
+    color: gray;
+    padding-left: 5px;
+}
+
+.grouplisting {
+    margin-left: 25px;
+    margin-top: 30px;
+}
+
+tr.tabletitles {
+    background-color: white;
+    border: white;
+}
+
+tr.evenrow {
+    background-color: #d3d3d3;
+    border: white;
+}
+tr.oddrow {
+    border: white;
+}
+
+td {
+    border-left: none;
+    border-right: none;
+    padding-left: 20px;
+}
+
+a {
+    text-decoration:none;
+}
+
+.description {
+    margin-left: 1.5em;
+}
+
+.detailnav p {
+        display:inline;
+}
+
+.detailnav img {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 3px;
+}
+
+.detailnav {
+    background-color: rgb(221,221,221);
+}

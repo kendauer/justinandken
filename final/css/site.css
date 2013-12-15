@@ -1,0 +1,277 @@
+/* CSS Rules */
+
+
+.header {
+    padding-bottom: 2em;
+	width: 100%;
+	padding: 5px;
+}
+
+
+body {
+	width:80%;
+    margin-left: 7.5%;
+    margin-right: 5%;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	background-color:#F0F0F0;
+}
+
+.header img {
+    
+    float: left;
+    margin-right: 50px;
+}
+
+.header h1 {
+
+    padding-left: .5em;
+}
+
+.header a:link {color:#000000;}      /* unvisited link */
+.header a:visited {color:#000000;}  /* visited link */
+.header a:hover {color:#000000;}  /* mouse over link */
+.header a:active {color:#000000;}  /* selected link */
+
+
+.navigation {
+	float:right;
+	text-align:right;
+}
+
+li {
+	list-style-type: none;
+	padding: 3px;
+	font-weight:600;
+}
+
+table {
+    width: 1000px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-collapse:collapse;
+    border: 0px;
+}
+
+.footerlinks a {
+    text-decoration:none;
+    color: gray;
+    text-align: center;
+    padding-left: 10px;
+}
+
+.footerlinks p {
+    display:inline;
+    color: gray;
+    padding-left: 5px;
+}
+
+.footer hr {
+    width: 1000px;
+
+}
+
+.footerlinks {
+    margin-left: 150px;
+}
+
+.grouplisting a {
+    text-decoration:none;
+    color: blue;
+    text-align: center;
+    padding-left: 10px;
+	border:medium;
+	border-color:#000;
+}
+
+.grouplisting p {
+    font-size: 120%;
+    display:inline;
+    color: gray;
+    padding-left: 5px;
+}
+
+.grouplisting li {
+	float:left;
+	margin-left:10px;
+	list-style-position:inside;
+	list-style-type:circle;
+	}
+
+.grouplisting li:first-child {
+	list-style-type:none;
+}
+
+.grouplisting {
+    margin-left: 25px;
+    margin-top: 20px;
+	margin-bottom: 15px;
+	border:medium;
+	border-color:#000;
+}
+
+th {
+	
+}
+
+tr.tabletitles {
+    background-color: white;
+    border: white;
+}
+
+tr.evenrow {
+    background-color: #d3d3d3;
+    border: white;
+}
+tr.oddrow {
+    border: white;
+}
+
+td {
+    border-left: none;
+    border-right: none;
+    padding-left: 20px;
+}
+
+a {
+    text-decoration:none;
+}
+
+.description {
+    margin-left: 1.5em;
+}
+
+.detailnav p {
+        display:inline;
+}
+
+.detailnav img {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 3px;
+}
+
+.detailnav {
+    background-color: rgb(221,221,221);
+}
+
+.pdflink {
+    float: right;
+}
+
+.top {
+    float: left;
+}
+
+/* CSS menu. design courtesy of cssmenumaker.com */
+
+#cssmenu ul {
+  margin: 0;
+  padding: 7px 6px 0;
+  background: #7d7d7d url(overlay.png) repeat-x 0 -110px;
+  line-height: 100%;
+  border-radius: 1em;
+  font: normal 0.5333333333333333em Arial, Helvetica, sans-serif;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+  width: auto;
+}
+#cssmenu li {
+  margin: 0 5px;
+  padding: 0 0 8px;
+  float: left;
+  position: relative;
+  list-style: none;
+}
+#cssmenu a,
+#cssmenu a:link {
+  font-weight: bold;
+  font-size: 13px;
+  color: #e7e5e5;
+  text-decoration: none;
+  display: block;
+  padding: 8px 20px;
+  margin: 0;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+#cssmenu a:hover {
+  background: #000;
+  color: #fff;
+}
+#cssmenu .active a,
+#cssmenu li:hover > a {
+  background: #979797 url(overlay.png) repeat-x 0 -40px;
+  background: #666666 url(overlay.png) repeat-x 0 -40px;
+  color: #444;
+  border-top: solid 1px  #f8f8f8;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  text-shadow: 0 1px 0 #ffffff;
+}
+#cssmenu ul ul li:hover a,
+#cssmenu li:hover li a {
+  background: none;
+  border: none;
+  color: #666;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+}
+#cssmenu ul ul a:hover {
+  background: #7d7d7d url(overlay.png) repeat-x 0 -100px !important;
+  color: #fff !important;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+#cssmenu li:hover > ul {
+  display: block;
+}
+#cssmenu ul ul {
+  display: none;
+  margin: 0;
+  padding: 0;
+  width: 185px;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  background: url(overlay.png) repeat-x 0 0;
+  border: solid 1px #b4b4b4;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+#cssmenu ul ul li {
+  float: none;
+  margin: 0;
+  padding: 3px;
+}
+#cssmenu ul ul a,
+#cssmenu ul ul a:link {
+  font-weight: normal;
+  font-size: 12px;
+}
+#cssmenu ul:after {
+  content: '.';
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+* html #cssmenu ul {
+  height: 1%;
+}
+
+h3 {
+	clear:left;
+}
